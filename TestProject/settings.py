@@ -1,5 +1,9 @@
 import django_heroku
 import dj_database_url
+import django_heroku
+import dj_database_url
+import django_heroku
+import dj_database_url
 
 import  os
 from pathlib import Path
@@ -17,7 +21,7 @@ SECRET_KEY = '3q_z+@z)pm*x0jzc*5(^7iim$*$wq5*11i*+6g2rig*jht%v0&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-
+ALLOWED_HOSTS = ['ruhezansa.herokuapp.com']
 
 
 # Application definition
